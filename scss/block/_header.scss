@@ -1,0 +1,229 @@
+.header {
+    max-width: 100%;
+    background-color: white;
+    height: 100px;
+    padding-top: 64px;
+    margin: 0 auto;
+    z-index: 2;
+
+
+
+ 
+    .drop{
+        width: 500px;
+        height: 500px;
+        display: none;
+        background-color: red;
+    }
+    .burger-menu {
+        display: none;
+        &   :active .drop{
+  display: block;
+        }
+    }
+
+    .header-nav {
+        display: flex;
+        background-color: white;
+        position: fixed;
+        width: 1111px;
+        height: 90px;
+        z-index: 2;
+        top: 0;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+
+        .ul {
+
+
+            display: flex;
+            align-items: center;
+            gap: 42px;
+
+            .ul-li {
+
+
+                .header-href {
+
+
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    /* identical to box height, or 100% */
+
+                    letter-spacing: 2px;
+
+                    color: #333136;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .header {
+        max-width: 100%;
+        background-color: white;
+        height: 0px;
+        padding-top: 64px;
+        padding-left: 39px;
+
+        z-index: 2;
+
+
+        .burger-menu {
+            display: none;
+        }
+
+        .header-nav {
+            max-width: 689px;
+            display: flex;
+            background-color: white;
+            top: 0;
+            position: fixed;
+            width: 689px;
+            z-index: 2;
+            align-items: center;
+            justify-content: space-between;
+
+
+
+
+            .ul {
+
+
+                display: flex;
+                align-items: center;
+                gap: 42px;
+                margin-right: 0px;
+
+                .ul-li {
+
+
+                    .header-href {
+
+                        margin-right: 0px;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 14px;
+                        /* identical to box height, or 100% */
+
+                        letter-spacing: 2px;
+
+                        color: #333136;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .header {
+        width: 375px;
+        background-color: white;
+        position: fixed;
+        padding-top: 35px;
+        position: relative;
+        padding-left: 0;
+top: -2px;
+
+        z-index: 2;
+
+
+
+     
+
+        .burger-menu {
+            display: block;
+        }
+      
+    
+
+        .header-nav {
+            padding-left: 24px;
+            padding-right: 24px;
+            display: flex;
+            top: 0;
+            margin-right: 78px;
+            max-width: 375px;
+            position: fixed;
+           
+            align-items: center;
+            justify-content: space-between;
+
+
+
+
+            .ul {
+
+                width: 24px;
+                height: 20px;
+                background: url(../../images/burger.svg);
+                display: flex;
+                align-items: center;
+                gap: 0px;
+                display: none;
+
+                .ul-li {
+
+
+                    .header-href {
+
+                        display: none;
+
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 14px;
+                        /* identical to box height, or 100% */
+
+                        letter-spacing: 2px;
+
+                        color: #333136;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

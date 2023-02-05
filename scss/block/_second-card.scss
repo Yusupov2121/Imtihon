@@ -1,0 +1,227 @@
+.second-card{
+    width: 1110px;
+    height: 364px;
+display: flex;
+align-items: center;
+margin-top: 50px;
+justify-content: center;
+gap: 178px;
+.card-div{
+width: 350px;
+margin-top:220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    flex-direction: column;
+
+
+
+
+    .card-bodys{
+        .card-bodys-h4{
+margin-top: 28px;
+            font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+
+text-align: center;
+letter-spacing: 5px;
+
+color: #333136;
+        }
+        .card-buttons{
+            width: 152px;
+            height: 56px;border-radius: 8px;
+            background-color: #E7816B;
+            border: none;
+margin: 32px auto;
+display: block;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+&:hover{
+
+    background: #FFAD9B;
+    color: #FFFFFF;
+}
+        }
+    }
+}
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .second-card{
+       max-width: 689px;
+        height: 1188px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    flex-direction: column;
+    margin-top: 360px;
+    justify-content: center;
+    padding-left: 283px;
+    padding-right: 283px;
+    gap: 178px;
+    .card-div{
+    width: 202px;
+    margin-top:80px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        flex-direction: column;
+    margin: -20px auto;
+    
+    
+    
+        .card-bodys{
+
+
+            .card-bodys-h4{
+    margin-top: 48px;
+                font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    
+    text-align: center;
+    letter-spacing: 5px;
+    
+    color: #333136;
+            }
+            .card-buttons{
+                width: 152px;
+                height: 56px;border-radius: 8px;
+                background-color: #E7816B;
+                border: none;
+    margin: 32px auto;
+    display: block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    &:hover{
+    
+        background: #FFAD9B;
+        color: #FFFFFF;
+    }
+            }
+        }
+    }
+    }
+    
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+    .second-card{
+       max-width: 350px;
+        height: 1188px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    flex-direction: column;
+    margin-top: 300px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 0px;
+    gap: 178px;
+    .card-div{
+    width: 202px;
+    margin-top:80px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        flex-direction: column;
+    margin: -20px auto;
+    
+    
+    
+        .card-bodys{
+
+
+            .card-bodys-h4{
+    margin-top: 48px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    
+    text-align: center;
+    letter-spacing: 5px;
+    width: 350px;
+    color: #333136;
+            }
+            .card-buttons{
+                width: 152px;
+                height: 56px;border-radius: 8px;
+                background-color: #E7816B;
+                border: none;
+    margin: 32px auto;
+    display: block;
+    
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    &:hover{
+    
+        background: #FFAD9B;
+        color: #FFFFFF;
+    }
+            }
+        }
+    }
+    }
+    
+
+
+
+}

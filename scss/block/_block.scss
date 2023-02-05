@@ -1,0 +1,330 @@
+.block {
+    width: 1111px;
+    height: 292px;
+    margin-top: 160px;
+    background: #E7816B;
+    border-radius: 15px;
+    position: relative;
+    padding-left: 95px;
+
+
+
+
+
+    .oval {
+        background-image: url(../images/images/oval6.svg);
+        width: 876px;
+        position: absolute;
+        height: 292px;
+        right: 0;
+    }
+
+    .block-info {
+        position: absolute;
+
+        .block-title {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 40px;
+            /* or 100% */
+
+            width: 268px;
+            color: #FFFFFF;
+            margin-top: 72px;
+        }
+
+        .block-text {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+            margin-top: 20px;
+            width: 459px;
+            color: #FFFFFF;
+        }
+
+    }
+
+    .block-button {
+        width: 152px;
+        height: 56px;
+        border: none;
+        right: 96px;
+        top: 118px;
+        background: #FFFFFF;
+        padding-top: 17px;
+        padding-left: 18px;
+        border-radius: 8px;
+        position: absolute;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height */
+
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        color: #333136;
+
+        &:hover {
+            background: #FFAD9B;
+            border-radius: 8px;
+            color: #FFFFFF;
+
+        }
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .block {
+        max-width: 690px;
+        height: 350px;
+        margin-top: 160px;
+        background: #E7816B;
+        border-radius: 15px;
+        position: relative;
+        padding-left: 0px;
+        padding-top: 0;
+        margin: 120px auto;
+
+
+
+
+
+        .oval {
+            background-image: url(../images/images/oval6.svg);
+            width: 690px;
+            position: absolute;
+            background-repeat: repeat;
+            background-size: cover;
+            height: 350px;
+            right: 0;
+        }
+
+        .block-info {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            .block-title {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 40px;
+
+                position: relative;
+
+                width: 350px;
+                text-align: center;
+                color: #ffffff;
+                left: 119px;
+                margin: 56px auto;
+            }
+
+            .block-text {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                position: relative;
+                left: 119px;
+                line-height: 26px;
+                /* or 162% */
+                margin-top: -30px;
+                margin: -30px auto;
+                text-align: center;
+                width: 473px;
+                display: block;
+                color: #FFFFFF;
+            }
+
+        }
+
+        .block-button {
+            width: 152px;
+            height: 56px;
+            border: none;
+            right: 0px;
+            left: 0px;
+            margin: 12px auto;
+            top: 237px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            position: absolute;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            color: #333136;
+
+            &:hover {
+                background: #FFAD9B;
+                border-radius: 8px;
+                color: #FFFFFF;
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+    .block {
+        max-width: 327px;
+        height: 379px;
+        margin-top: 121px;
+        background: #E7816B;
+        border-radius: 15px;
+        position: relative;
+        padding-left: 0px;
+        padding-top: 64;
+        margin: 120px auto;
+
+
+
+
+
+        .oval {
+            background-image: url(../images/images/oval6.svg);
+            width: 327px;
+            position: absolute;
+            background-repeat: repeat;
+            background-size: cover;
+            height: 379px;
+            right: 0;
+        }
+
+        .block-info {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            .block-title {
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 36px;
+                /* or 112% */
+
+                text-align: center;
+                margin-left: 0;
+                padding-left: 0;
+                color: #FFFFFF;
+                width: 209px;
+                left: 22.5%;
+                position: relative;
+                right: 0;
+
+
+
+            }
+
+            .block-text {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                position: relative;
+                width: 279px;
+                left: 25px;
+                line-height: 26px;
+                /* or 162% */
+                margin-top: -60px;
+                margin: -52px auto;
+                text-align: center;
+                display: block;
+                color: #FFFFFF;
+            }
+
+        }
+
+        .block-button {
+            width: 152px;
+            height: 56px;
+            border: none;
+            padding-top: 17px;
+            right: 0px;
+            left: 0px;
+            margin: 259px auto;
+            top: 0px;
+            bottom: 64px;
+
+            background: #FFFFFF;
+            border-radius: 8px;
+            position: absolute;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            color: #333136;
+
+            &:hover {
+                background: #FFAD9B;
+                border-radius: 8px;
+                color: #FFFFFF;
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,370 @@
+.hero {
+    width: 1111px;
+    height: 640px;
+    background-color: #E7816B;
+    border-radius: 15px;
+    position: relative;
+    padding-top: 145px;
+    padding-left: 95px;
+
+    display: flex;
+    align-items: flex-start;
+
+
+
+
+
+    .hero-info {
+
+
+        .hero-title {
+
+
+            width: 540px;
+
+            left: 260px;
+            top: 300px;
+            height: 165px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 48px;
+            /* or 100% */
+
+
+            color: #FFFFFF;
+        }
+
+        .hero-text {
+
+
+            width: 445px;
+            margin-top: 11px;
+            left: 260px;
+            top: 476px;
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            color: #FFFFFF;
+        }
+
+        .hero-button {
+
+            width: 152px;
+            height: 56px;
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            margin-top: 40px;
+            padding-top: 18px;
+            padding-left: 24px;
+            padding-bottom: 16px;
+            border: none;
+            display: block;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            color: #333136;
+
+            &:hover {
+                color: #FFFFFF;
+                background-color: #FFAD9B;
+            }
+        }
+    }
+
+    .hero-right {
+        background-image: url(../images/images/oval.svg);
+        position: absolute;
+        width: 640px;
+        height: 640px;
+        right: 0;
+        top: 0;
+
+        .hero-right-img {
+            margin-top: 20px;
+            margin-left: 190px;
+
+
+        }
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        max-width: 689px;
+        height: 843px;
+        background-color: #E7816B;
+        border-radius: 15px;
+        position: relative;
+        padding-top: 60px;
+        padding-left: 0px;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 20px auto;
+
+
+
+
+        .hero-info {
+            text-align: center;
+
+            .hero-title {
+
+
+                width: 540px;
+                text-align: center;
+                left: 260px;
+                top: 300px;
+                height: 165px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 48px;
+                /* or 100% */
+
+
+                color: #FFFFFF;
+            }
+
+            .hero-text {
+
+
+                width: 445px;
+                margin-top: 8px;
+                left: 233px;
+                top: 476px;
+                margin: 8px auto;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                /* or 162% */
+
+
+                color: #FFFFFF;
+            }
+
+            .hero-button {
+
+                width: 152px;
+                height: 56px;
+                background-color: #FFFFFF;
+                border-radius: 8px;
+                margin-top: 19px;
+                border: none;
+                display: block;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                margin: 19px auto;
+
+                padding-right: 20px;
+                /* identical to box height */
+
+                letter-spacing: 1px;
+                text-transform: uppercase;
+
+                color: #333136;
+
+                &:hover {
+                    color: #FFFFFF;
+                    background-color: #FFAD9B;
+                }
+            }
+        }
+
+        .hero-right {
+            background-image: url(../images/images/oval.svg);
+            position: absolute;
+            width: 640px;
+            height: 640px;
+            margin-top: 100px;
+            margin-left: 650px;
+            background-position-x: 125px;
+            background-repeat: no-repeat;
+
+            .hero-right-img {
+                margin-top: 240px;
+                margin-left: 95px;
+
+                position: absolute;
+                overflow: hidden;
+
+
+            }
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .hero {
+        margin: 60px auto;
+        max-width: 375px;
+        height: 843px;
+        background-color: #E7816B;
+        border-radius: 0px;
+        position: relative;
+        padding-top: 80px;
+        padding-left: 0px;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+
+
+
+
+        .hero-info {
+            text-align: center;
+
+            .hero-title {
+
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 36px;
+                /* or 112% */
+
+                text-align: center;
+                margin: 0px auto;
+
+                color: #FFFFFF;
+                width: 327px;
+            }
+
+            .hero-text {
+
+
+                width: 327px;
+                margin-top: -40px;
+                height: 100px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */
+
+                text-align: center;
+
+                color: #FFFFFF;
+            }
+
+            .hero-button {
+
+                width: 152px;
+                height: 56px;
+                background-color: #FFFFFF;
+                border-radius: 8px;
+                margin-top: 19px;
+                border: none;
+                font-family: 'Jost';
+                font-style: normal;
+                display: block;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                /* identical to box height */
+
+                letter-spacing: 1px;
+                text-transform: uppercase;
+
+                color: #333136;
+
+                &:hover {
+                    color: #FFFFFF;
+                    background-color: #FFAD9B;
+                }
+            }
+        }
+
+        .hero-right {
+            background-image: url(../images/images/oval.svg);
+            position: absolute;
+            width: 640px;
+            height: 640px;
+            margin-top: 102px;
+            margin-left: 650px;
+            background-position-x: 250px;
+            background-repeat: no-repeat;
+
+            .hero-right-img {
+                margin-top: 240px;
+                margin-left: 250px;
+
+                position: absolute;
+                overflow: hidden;
+
+
+            }
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

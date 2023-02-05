@@ -1,0 +1,411 @@
+.footer {
+    width: 100%;
+    height: 393px;
+
+    background-color: #1D1C1E;
+    margin-top: -80px;
+    padding-top: 145px;
+
+
+    .footer-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .footer-ul {
+            display: flex;
+            align-items: center;
+            gap: 42px;
+
+            .footer-href {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                /* identical to box height, or 100% */
+
+                letter-spacing: 2px;
+
+                color: #FFFFFF;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+
+    .footer-hr {
+        width: 1111px;
+        margin: 40px 0;
+        background-color: white;
+        opacity: 0.1;
+    }
+
+    .footer-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .end-nav {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+
+            .end-ul {
+                width: 350px;
+                height: 78px;
+
+                .end-href {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 26px;
+                    /* or 162% */
+
+
+                    color: #FFFFFF;
+
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+
+                }
+
+                .end-hrefd {
+                    font-weight: 600;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 26px;
+                    /* or 162% */
+
+
+                    color: #FFFFFF;
+
+                    mix-blend-mode: normal;
+                    opacity: 0.38
+                }
+            }
+        }
+    }
+
+    .footer-icons {
+        display: flex;
+        gap: 16px;
+
+        .icons {
+            &:hover {
+
+                background: #FFAD9B;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        width: 100%;
+        height: 423px;
+
+        background-color: #1D1C1E;
+        margin-top: -180px;
+        padding-top: 166px;
+        padding-left: 39px;
+        padding-right: 39px;
+
+
+        .footer-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .footer-ul {
+                display: flex;
+                align-items: center;
+                gap: 42px;
+
+                .footer-href {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    /* identical to box height, or 100% */
+
+                    letter-spacing: 2px;
+
+                    color: #FFFFFF;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+
+        .footer-hr {
+            width: 690px;
+            margin: 46px 0;
+            background-color: white;
+            opacity: 0.1;
+        }
+
+        .footer-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .end-nav {
+                display: flex;
+                align-items: flex-start;
+                gap: 30px;
+
+                .end-ul {
+                    width: 223px;
+                    height: 78px;
+
+                    .end-href {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* or 162% */
+
+
+                        color: #FFFFFF;
+
+                        mix-blend-mode: normal;
+                        opacity: 0.5;
+
+                    }
+
+                    .end-hrefd {
+                        font-weight: 600;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* or 162% */
+
+
+                        color: #FFFFFF;
+
+                        mix-blend-mode: normal;
+                        opacity: 0.38
+                    }
+                }
+            }
+        }
+
+        .footer-icons {
+            display: flex;
+            gap: 16px;
+
+            .icons {
+                &:hover {
+
+                    background: #FFAD9B;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .footer {
+        width: 100%;
+        height: 815px;
+
+        background-color: #1D1C1E;
+        margin-top: -320px;
+        padding-top: 253px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+
+        .footer-nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            .footer-ul {
+                margin-top: 65px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 32px;
+
+                .footer-href {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    /* identical to box height, or 100% */
+
+                    letter-spacing: 2px;
+
+                    color: #FFFFFF;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+
+        .footer-hr {
+            width: 327px;
+            margin: -155px auto;
+            margin-left: 24px;
+            position: absolute;
+            background-color: white;
+            opacity: 0.1;
+        }
+
+        .footer-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            .end-nav {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
+                margin: 40px auto;
+                flex-direction: column;
+                padding-left: 24px;
+                margin-left: 0px;
+
+                .end-ul {
+                    width: 327px;
+                    height: 78px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .end-href {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin: 0px auto;
+                        /* or 162% */
+
+
+                        color: #FFFFFF;
+
+                        mix-blend-mode: normal;
+                        opacity: 0.5;
+
+                    }
+
+                    .end-hrefd {
+                        font-weight: 600;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* or 162% */
+
+
+                        color: #FFFFFF;
+
+                        mix-blend-mode: normal;
+                        opacity: 0.38
+                    }
+                }
+            }
+        }
+
+        .footer-icons {
+            display: flex;
+            gap: 16px;
+
+            .icons {
+                &:hover {
+
+                    background: #FFAD9B;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,645 @@
+.info {
+    margin-top: 160px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+
+    .hover {
+        position: absolute;
+        width: 541px;
+        height: 640px;
+        background-color: #E7816B;
+        opacity: 0%;
+
+        &:hover {
+
+            opacity: 50%;
+        }
+    }
+
+
+
+    .info-web {
+        width: 541px;
+        height: 640px;
+        background: url(../images/images/noothand.svg);
+        background-color: transparent;
+
+        padding-top: 293px;
+
+        &:hover {
+            width: 541px;
+            height: 640px;
+            background-color: #cea8a8;
+        }
+    }
+
+    .info-web-title {
+        text-align: center;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+
+        letter-spacing: 2px;
+
+        color: #FFFFFF;
+    }
+
+    .info-web-text {
+        margin-trim: 24px;
+        text-align: center;
+
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height */
+
+        letter-spacing: 5px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+    .info-app {
+
+        width: 541px;
+        height: 308px;
+        background-image: url(../images/images/telhand.svg);
+        padding-top: 107px;
+        position: relative;
+
+        .hover2 {
+            position: absolute;
+            width: 541px;
+            height: 308px;
+            background-color: #E7816B;
+            opacity: 0%;
+            top: 0;
+
+            &:hover {
+
+                opacity: 50%;
+            }
+        }
+
+        .info-app-title {
+            text-align: center;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 48px;
+            /* identical to box height, or 120% */
+
+            letter-spacing: 2px;
+
+            color: #FFFFFF;
+        }
+
+        .info-app-text {
+            margin-trim: 24px;
+            text-align: center;
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: 5px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+
+
+
+        }
+
+
+    }
+
+    .info-graph {
+        position: relative;
+        margin-top: 24px;
+        width: 541px;
+        height: 308px;
+        background-image: url(../images/images/carusel.svg);
+        padding-top: 107px;
+
+        .hover3 {
+            position: absolute;
+            width: 541px;
+            height: 308px;
+            background-color: #E7816B;
+            opacity: 0%;
+            top: 0;
+
+            &:hover {
+
+                opacity: 50%;
+            }
+        }
+
+        .info-graph-title {
+            text-align: center;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 48px;
+            /* identical to box height, or 120% */
+
+            letter-spacing: 2px;
+
+            color: #FFFFFF;
+        }
+
+        .info-graph-text {
+            margin-trim: 24px;
+            text-align: center;
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: 5px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+
+
+
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .info {
+        margin-top: 120px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 24px;
+        margin-left: 39px;
+
+        .hover {
+            position: absolute;
+            width: 689px;
+            border-radius: 15px;
+            height: 200px;
+            background-color: #E7816B;
+            opacity: 0%;
+
+            &:hover {
+
+                opacity: 50%;
+            }
+        }
+
+
+
+        .info-web {
+            width: 689px;
+            height: 200px;
+            background: url(../images/images/noothand.svg);
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+            padding-top: 53px;
+
+            &:hover {
+                width: 541px;
+                height: 640px;
+                background-color: #cea8a8;
+            }
+        }
+
+        .info-web-title {
+            text-align: center;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 48px;
+            /* identical to box height, or 120% */
+
+            letter-spacing: 2px;
+
+            color: #FFFFFF;
+        }
+
+        .info-web-text {
+            margin-top: 24px;
+            text-align: center;
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: 5px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+        .info-app {
+
+            width: 689px;
+            height: 200px;
+            background-image: url(../images/images/telhand.svg);
+            padding-top: 53px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+            position: relative;
+
+            .hover2 {
+                position: absolute;
+                width: 690px;
+                height: 200px;
+                background-color: #E7816B;
+                opacity: 0%;
+                top: 0;
+
+                &:hover {
+
+                    opacity: 50%;
+                }
+            }
+
+            .info-app-title {
+                text-align: center;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                /* identical to box height, or 120% */
+
+                letter-spacing: 2px;
+
+                color: #FFFFFF;
+            }
+
+            .info-app-text {
+                margin-top: 24px;
+                text-align: center;
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                /* identical to box height */
+
+                letter-spacing: 5px;
+                text-transform: uppercase;
+
+                color: #FFFFFF;
+
+
+
+            }
+
+
+        }
+
+        .info-graph {
+            position: relative;
+            width: 689px;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+            background-image: url(../images/images/carusel.svg);
+            padding-top: 53px;
+
+            .hover3 {
+                position: absolute;
+                width: 689px;
+                height: 200px;
+                background-color: #E7816B;
+                opacity: 0%;
+                top: 0;
+
+                &:hover {
+
+                    opacity: 50%;
+                }
+            }
+
+            .info-graph-title {
+                text-align: center;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                /* identical to box height, or 120% */
+
+                letter-spacing: 2px;
+
+                color: #FFFFFF;
+            }
+
+            .info-graph-text {
+                margin-top: 24px;
+                text-align: center;
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                /* identical to box height */
+
+                letter-spacing: 5px;
+                text-transform: uppercase;
+
+                color: #FFFFFF;
+
+
+
+            }
+
+        }
+
+    }
+ 
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    .info {
+        margin-top: 120px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 24px;
+        padding-left: 0px;
+        padding-right: 39px;
+        margin-right: 39px;
+        margin-left: 24px;
+
+        .hover {
+            position: absolute;
+            width: 327px;
+            border-radius: 15px;
+            height: 250px;
+            background-color: #E7816B;
+            opacity: 0%;
+
+            &:hover {
+
+                opacity: 50%;
+            }
+        }
+
+
+
+        .info-web {
+            width: 327px;
+            height: 250px;
+            background: url(../images/images/noothand.svg);
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+            padding-top: 90px;
+
+            &:hover {
+                width: 327px;
+                height: 250px;
+                background-color: #cea8a8;
+            }
+        }
+
+        .info-web-title {
+            text-align: center;
+
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 36px;
+            /* identical to box height, or 129% */
+
+            text-align: center;
+            letter-spacing: 1.4px;
+
+            color: #FFFFFF;
+        }
+
+        .info-web-text {
+            margin-top: 11px;
+            text-align: center;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+
+            letter-spacing: 5px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+        .info-app {
+
+
+            background-image: url(../images/images/telhand.svg);
+            width: 327px;
+            height: 250px;
+
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+            padding-top: 90px;
+
+            .hover2 {
+                position: absolute;
+                width: 327px;
+                height: 250px;
+
+                background-color: #E7816B;
+                opacity: 0%;
+                top: 0;
+
+                &:hover {
+
+                    opacity: 50%;
+                }
+            }
+
+            .info-app-title {
+                text-align: center;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 36px;
+                /* identical to box height, or 129% */
+
+                text-align: center;
+                letter-spacing: 1.4px;
+
+                color: #FFFFFF;
+            }
+
+            .info-app-text {
+                margin-top: 11px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                /* identical to box height */
+
+                letter-spacing: 5px;
+                text-transform: uppercase;
+
+                color: #FFFFFF;
+
+                color: #FFFFFF;
+
+
+
+            }
+
+
+        }
+
+        .info-graph {
+            position: relative;
+            background-image: url(../../images/images/carusel.svg);
+            width: 327px;
+            height: 250px;
+
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+            padding-top: 90px;
+
+            .hover3 {
+                position: absolute;
+                width: 327px;
+                height: 250px;
+                background-color: #E7816B;
+                opacity: 0%;
+                top: 0;
+
+                &:hover {
+
+                    opacity: 50%;
+                }
+            }
+
+            .info-graph-title {
+                text-align: center;
+
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 36px;
+                /* identical to box height, or 129% */
+
+                text-align: center;
+                letter-spacing: 1.4px;
+
+                color: #FFFFFF;
+            }
+
+            .info-graph-text {
+                margin-top: 12px;
+                text-align: center;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                /* identical to box height */
+
+                letter-spacing: 5px;
+                text-transform: uppercase;
+
+                color: #FFFFFF;
+
+
+
+            }
+
+        }
+
+    }
+
+
+
+}
